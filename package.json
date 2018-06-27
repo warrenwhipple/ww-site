@@ -1,0 +1,14 @@
+{
+  "name": "ww-site",
+  "description": "Warren Whipple website",
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.250",
+    "gatsby-link": "^1.6.40"
+  }
+}
