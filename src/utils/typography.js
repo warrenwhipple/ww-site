@@ -23,7 +23,12 @@ const typography = new Typography({
       name: "Merriweather",
       styles: ["400"]
     }
-  ]
+  ],
+  overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    h2: {
+      marginTop: rhythm(3)
+    }
+  })
 });
 
 export default typography;
